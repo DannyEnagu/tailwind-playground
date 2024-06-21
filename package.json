@@ -1,4 +1,14 @@
 {
+  "name": "tailwind-playground",
+  "version": "1.0.0",
+  "description": "A tailwind playground",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build input.css -o styles.css",
+    "watch": "tailwindcss build input.css -o styles.css --watch",
+    "dev": "npm run watch",
+    "start": "live-server",
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   }
